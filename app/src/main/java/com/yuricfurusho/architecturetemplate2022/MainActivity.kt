@@ -1,4 +1,4 @@
-package com.example.architecturetemplate2022
+package com.yuricfurusho.architecturetemplate2022
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
