@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yuricfurusho.ui_compose">
+    package="com.yuricfurusho.architecturetemplate2022.ui">
+
+    <application>
+        <activity
+            android:name=".ContractorsListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_contractors"
+            android:theme="@style/Theme.ArchitectureTemplate2022" />
+    </application>
 
 </manifest>
