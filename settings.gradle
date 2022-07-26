@@ -16,3 +16,4 @@ rootProject.name = "ArchitectureTemplate2022"
 include ':app'
 include ':usecase'
 include ':repository'
+include ':ui'

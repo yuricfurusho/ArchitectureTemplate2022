@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="ArchitectureTemplate2022.app" target="11" />
+      <module name="ArchitectureTemplate2022.ui" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
