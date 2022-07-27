@@ -2,12 +2,12 @@ package com.yuricfurusho.usecase
 
 object ContractorDummyData {
     private val parisLandscaper = Contractor(
-        name = "Landscaper from VM",
+        name = "Landscaper from USECASE",
         city = "Paris",
         category = "landscape"
     )
     private val tokyoPainter = Contractor(
-        name = "Painter from VM",
+        name = "Painter from USECASE",
         city = "Tokyo",
         category = "painter"
     )

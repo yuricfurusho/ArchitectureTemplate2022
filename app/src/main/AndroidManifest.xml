@@ -4,6 +4,7 @@
     package="com.yuricfurusho.architecturetemplate2022">
 
     <application
+        android:name=".TemplateApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
