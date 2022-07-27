@@ -12,7 +12,7 @@ class ContractorItemUIBuilder() {
         name = contractor.name,
         categoryColour = getCategoryColour(contractor.category),
         cityName = contractor.city,
-        cityImage = getCityImage(contractor.category)
+        cityImage = getCityImage(contractor.city)
     )
 
     //TODO make strings enums
