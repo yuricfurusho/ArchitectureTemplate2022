@@ -25,6 +25,7 @@ fun ContractorsScreen(vm: ContractorsViewModel) {
 
 @Composable
 fun ContractorList(contractorList: List<ContractorItemUI>) {
+    //TODO add accompanist swipe to refresh
     LazyColumn {
         items(contractorList) { contractor ->
             ContractorItem(contractor)

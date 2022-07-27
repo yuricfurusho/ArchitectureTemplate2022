@@ -12,5 +12,6 @@ class ContractorsViewModel : ViewModel() {
     private val _contractorList = MutableStateFlow(ContractorDummyData.contractorList)
     val contractorList: StateFlow<List<Contractor>> = _contractorList
 
-
+    //TODO add refresh
+    //TODO add loadNextPage
 }
