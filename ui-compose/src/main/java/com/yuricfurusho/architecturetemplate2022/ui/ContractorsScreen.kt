@@ -14,8 +14,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ContractorsScreen() {
-    ContractorList(contractorList)
+fun ContractorsScreen(vm: ContractorsViewModel) {
+//    ContractorList(ContractorUIDummyData.contractorList)
+
+    val contractorListUI = vm.contractorList.map {
+        ContractorItemUIBuilder().from(it)
+    }
+    ContractorList(contractorListUI)
 }
 
 @Composable

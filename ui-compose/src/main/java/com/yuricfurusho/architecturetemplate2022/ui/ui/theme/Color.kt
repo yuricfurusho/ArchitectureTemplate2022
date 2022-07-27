@@ -9,3 +9,4 @@ val Teal200 = Color(0xFF03DAC5)
 
 val LandscaperGreen = Color(0xFF4CAF50)
 val PainterBlue = Color(0xFF03A9F4)
+val NeutralWhite = Color(0xFFFFFFFF)
