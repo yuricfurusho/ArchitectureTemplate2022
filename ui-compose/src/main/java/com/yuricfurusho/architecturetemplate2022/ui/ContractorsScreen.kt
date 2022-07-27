@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -16,8 +17,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun ContractorsScreen(vm: ContractorsViewModel) {
 //    ContractorList(ContractorUIDummyData.contractorList)
-
-    val contractorListUI = vm.contractorList.map {
+    val contractorListUI = vm.contractorList.collectAsState().value.map {
         ContractorItemUIBuilder().from(it)
     }
     ContractorList(contractorListUI)
