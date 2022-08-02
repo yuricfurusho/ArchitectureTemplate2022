@@ -1,4 +1,6 @@
 package com.yuricfurusho.repository_interface
 
-class ContractorsRepository {
+//TODO yuri: rename to remove s
+interface ContractorsRepository {
+    fun getContractorList()
 }
