@@ -1,5 +1,6 @@
 package com.yuricfurusho.usecase
 
+import com.yuricfurusho.domain_data.Contractor
 import com.yuricfurusho.repository_interface.ContractorsRepository
 import javax.inject.Inject
 
@@ -9,5 +10,5 @@ class FetchContractorListUseCase @Inject constructor(
     private val contractorRepository: ContractorsRepository,
 ) {
 
-    operator fun invoke(): MutableList<Contractor> = ContractorDummyData.contractorList
+    operator fun invoke(): List<Contractor> = contractorRepository.getContractorList()
 }

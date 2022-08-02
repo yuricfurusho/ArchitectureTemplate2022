@@ -11,4 +11,5 @@ java {
 dependencies {
     implementation "javax.inject:javax.inject:1"
     implementation project(path: ':repository-interface')
+    implementation project(path: ':domain-data')
 }

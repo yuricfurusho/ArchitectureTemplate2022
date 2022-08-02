@@ -1,7 +1,7 @@
 package com.yuricfurusho.architecturetemplate2022.ui
 
 import androidx.lifecycle.ViewModel
-import com.yuricfurusho.usecase.Contractor
+import com.yuricfurusho.domain_data.Contractor
 import com.yuricfurusho.usecase.FetchContractorListUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

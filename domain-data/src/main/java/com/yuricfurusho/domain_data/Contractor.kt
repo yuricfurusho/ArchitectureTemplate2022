@@ -1,4 +1,4 @@
-package com.yuricfurusho.usecase
+package com.yuricfurusho.domain_data
 
 data class Contractor(
     val name: String,
